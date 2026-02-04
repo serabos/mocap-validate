@@ -4,11 +4,11 @@ This pipeline compares markerless and marker-based motion capture systems to see
 
 ## What This Does
 
-I built this tool to analyze kinematic data from two different motion capture systems:
+This tool analyzes kinematic data from two different motion capture systems:
 - **MMC (Markerless Motion Capture)** - uses RGB cameras to track movement
 - **MBMC (Marker-Based Motion Capture)** - the traditional gold standard with physical markers
 
-The code processes data from 12 participants across 6 different joint movements and creates visualizations that show:
+The code processes data from 12 participants (can be changed) across 6 different joint movements and creates visualizations that show:
 - How the two systems compare (mean angles with 95% confidence intervals)
 - Where they differ (offset curves for each participant and overall)
 - Whether the markerless system is accurate enough for clinical use
